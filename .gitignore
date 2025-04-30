@@ -1,0 +1,33 @@
+# === Node (backend) ===
+backend/node_modules/
+backend/.env
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/*.log
+backend/.DS_Store
+backend/*.pem
+
+# === React (frontend) ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# === Logs ===
+logs/
+*.log
+debug.log
+error.log
+
+# === OS & Editor files ===
+*.swp
+*.swo
+.vscode/
+.idea/
+Thumbs.db
+
+# === Common build/cache dirs ===
+.cache/
+dist/
+build/
